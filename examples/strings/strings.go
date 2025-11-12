@@ -9,18 +9,19 @@ import (
 type Color genums.EnumString[Color]
 type Color2 genums.EnumString[Color2]
 
-var colorFactory = genums.NewFactory[Color]()
-var colorFactory2 = genums.NewFactory[Color2]()
+var colorFactory = genums.NewStringFactory[Color]()
+var color2Factory = genums.NewStringFactory[Color2]()
 
 var (
-	Red   = colorFactory.Add("red")
-	Black = colorFactory.Add("black")
+	Red   = colorFactory.New("red")
+	Black = colorFactory.New("black")
 
-	Red2 = colorFactory2.Add("red")
+	Red2 = color2Factory.New("red2")
 )
 
 func foo(color Color) {
 	fmt.Println(color)
+	fmt.Println("raw value:", color.Value())
 }
 
 func main() {
