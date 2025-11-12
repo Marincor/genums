@@ -1,8 +1,8 @@
 # Genums
 
-<span style="display: flex; align-items: center; justify-content: center; background-color: rgba(231, 217, 217, 1); padding: 10px; border-radius: 5px;">
+<div style="display: flex; align-items: center; justify-content: center; background-color: rgba(231, 217, 217, 1); padding: 10px; border-radius: 5px;">
     <img src="https://raw.githubusercontent.com/Marincor/assets/refs/heads/main/icon_genums2.png" alt="Genums Logo" width="100"/>
-</span>
+</div>
 
 A type-safe, generic enum library for Go that provides a flexible and elegant way to create enumerations with various underlying types.
 
