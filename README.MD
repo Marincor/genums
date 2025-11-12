@@ -11,6 +11,11 @@ A type-safe, generic enum library for Go that provides a flexible and elegant wa
 - **Factory Pattern**: Optional factory pattern for convenient enum creation
 - **Zero Dependencies**: Pure Go implementation with no external dependencies
 
+[![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](https://go.dev/)
+[![GoDoc reference example](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/marincor/genums)
+[![GoReportCard example](https://goreportcard.com/badge/github.com/nanomsg/mangos)](https://goreportcard.com/report/github.com/marincor/genums)
+
+
 ## Installation
 
 ```bash
