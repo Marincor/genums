@@ -1,6 +1,6 @@
 # Genums
 
-<img src="https://raw.githubusercontent.com/Marincor/assets/refs/heads/main/icon_genums2.png" alt="Genums Logo" width="100"/>
+<img src="https://raw.githubusercontent.com/Marincor/assets/refs/heads/main/icon_genums3.png" alt="Genums Logo" width="100"/>
 
 A type-safe, generic enum library for Go that provides a flexible and elegant way to create enumerations with various underlying types.
 
